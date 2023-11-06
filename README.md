@@ -40,6 +40,7 @@ This repository contains my assignments and projects that I have done during the
 - [x] [Assignment 1](/Day-1/assignments/assignment.html)
 - [x] [Assignment 2](/Day-2/assignments/grid/index.html)
 - [x] [Assignment 3](/Day-3/assignments/script.js)
+- [x] [Assignment 4](/Day-3/assignments/assignment.js)
 
 
 
