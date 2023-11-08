@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Day-3/assignments/style/script.css" />
     <title>Document</title>
-</head>
-<body>
-    <script type="module" src="assignment.js"></script>
-</body>
+  </head>
+  <body>
+    <main class="container">
+      <h2>“ Çağatay Yıldız” isimli metindeki boşlukları kaldır.</h2>
+      <pre>
+            let cagatayName = ' Çağatay Yıldız';
+
+            console.log(cagatayName.replace(' ', ''));
+        </pre
+      >
+
+      <h2>
+        “cagatay yildiz” kelimesindeki boşlukları temizle ve tüm harfleri
+        büyült.
+      </h2>
+      <pre>
+            let cagatayName2 = 'cagatay yildiz';
+
+            let deleteSpace = cagatayName2.replace(' ', '');
+            
+            console.log(deleteSpace.toUpperCase());
+        </pre
+      >
+
+      <h2>“******Çağatay Yıldız” isimli metindeki yıldızları kaldır.</h2>
+      <pre>
+            let cagatayName3 = '******Çağatay Yıldız';
+
+            console.log(cagatayName3.replaceAll('*', ''));
+        </pre
+      >
+
+      <h2>
+        “Çağatay Yıldız” metnindeki kelimeler arasında 2 boşluk var bunu bir
+        boşluk yap.
+      </h2>
+      <pre>
+            let cagatayName4 = 'Çağatay  Yıldız';
+
+            console.log(cagatayName4.replace('  ', ' '));
+        </pre
+      >
+
+      <h2>“**Tech Career**” isimli metindeki yıldızları kaldır.</h2>
+      <pre>
+            let techCareerName = '**Tech Career**';
+
+            console.log(techCareerName.replaceAll('*', ''));
+        </pre
+      >
+
+      <h2>
+        “Tech Career” isimli metnin soluna ve sağına 3 yıldız koy. “***Tech
+        Career***”
+      </h2>
+      <pre>
+            let techCareerName2 = 'Tech Career';
+
+            console.log('***' + techCareerName2 + '***');
+        </pre
+      >
+      <h2>
+        “Tech Career Bilişim teknolojileri” metnindeki son kelimeyi büyült.
+      </h2>
+      <pre>
+        let techCareerName3 = 'Tech Career Bilişim teknolojileri';
+
+        let lastWord = techCareerName3.substring(techCareerName3.lastIndexOf(' ') + 1);
+        
+        let upperLastWord = lastWord.toUpperCase();
+        
+        console.log(
+          techCareerName3.substring(0, techCareerName3.lastIndexOf(' ')) +
+            ' ' +
+            upperLastWord
+        );</pre
+      >
+      <h2>“Tech Career” kelimelerin ilk harflerini büyült</h2>
+      <pre>
+        let techCareerName4 = 'tech career';
+
+        // Bunun için bir fonksiyon yazabiliriz.
+        
+        const toUpper = (str) => {
+          let firstLetter = str.substring(0, 1);
+          let otherLetters = str.substring(1);
+          return firstLetter.toUpperCase() + otherLetters;
+        };
+        
+        let firstWord = techCareerName4.substring(0, techCareerName4.indexOf(' '));
+        let secondWord = techCareerName4.substring(techCareerName4.indexOf(' ') + 1);
+        
+        console.log(toUpper(firstWord) + ' ' + toUpper(secondWord));</pre
+      >
+    </main>
+  </body>
+  <script type="module" src="assignment.js"></script>
 </html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Day-3/assignments/style/script.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+        <h2>250'ye kadar olan sayıların toplamı nedir?</h2>
+        <pre>
+          let sum = 0;
+          for (let i = 0; i <= 250; i++) {
+            sum += i;
+          }
+          console.log(sum);
+        </pre>
+      
+        <h2>25 ile 125 arasındaki sayıların toplamı nedir?</h2>
+        <pre>
+          let summ = 0;
+          for (let i = 25; i <= 125; i++) {
+            sum += i;
+          }
+          console.log(sum);
+        </pre>
+      
+        <h2>1 ile 1000 arasındaki sayıların toplamının ortalaması nedir?</h2>
+        <pre>
+          let summm = 0;
+          for (let i = 1; i <= 1000; i++) {
+            summm += i;
+          }
+          console.log(summm / 1000);
+        </pre>
+      
+        <h2>Birden yüze kadarki sayılardan, 5'e bölünenleri ekrana yazdırın.</h2>
+        <pre>
+          for (let i = 1; i <= 100; i++) {
+            if (i % 5 == 0) {
+              console.log(i);
+            }
+          }
+        </pre>
+      
+        <h2>Dizinin en büyük sayısını for döngüsü kullanarak bulunuz.</h2>
+        <pre>
+          var numbers = [33, 11, -5, 20, 1, 55, 100, 2, 94, 55, 11];
+      
+          let max = numbers[0]; // En büyük sayının ilk eleman olduğunu varsayıyoruz.
+      
+          for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+              max = numbers[i];
+            }
+          }
+          console.log(max);
+        </pre>
+      
+        <h2>Dizinin en küçük sayısını for döngüsü kullanarak bulunuz.</h2>
+        <pre>
+          let min = numbers[0]; // En küçük sayının ilk eleman olduğunu varsayıyoruz.
+      
+          for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] < min) {
+              min = numbers[i];
+            }
+          }
+          console.log(min);
+        </pre>
+    </main>
+  </body>
+</html>

@@ -7,6 +7,18 @@
 //     randomNumbers.push(randomNumber)
 // }
 
+const boxes = document.querySelectorAll('.box');
+console.log(boxes);
+const button = document.querySelector('#btn');
+
+button.addEventListener('click', () => {
+  let numbers = uniqueRandomArray();
+  console.log(numbers);
+  for (let i = 0; i < numbers.length; i++) {
+    boxes[i].textContent = numbers[i];
+  }
+});
+
 const uniqueRandomArray = () => {
   let numbers = [];
 
@@ -18,6 +30,5 @@ const uniqueRandomArray = () => {
       numbers.push(randomNumber);
     }
   }
-  console.log(numbers);
   return numbers;
 };
