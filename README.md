@@ -43,6 +43,7 @@ This repository contains my assignments and projects that I have done during the
 - [x] [Assignment 4](/Day-3/assignments/assignment.js)
 - [x] [Assignment 5](/Day-4/assignments/lotto/index.html)
 - [x] [Assignment 6](/Day-4/assignments/horse-racing/index.html)
+- [x] [Assignment 7](/Day-4/assignments/basic-calculator/index.html)
 - [x] [Home Work 1](/Day-4/home/slider-example/index.html)
 
 
