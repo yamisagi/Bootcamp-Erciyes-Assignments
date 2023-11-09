@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+}
+
+#form {
+  width: 500px;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+#result {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  background: #000;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: scroll;
+  padding: 20px;
+  padding-top: 10rem;
+}
+li {
+  list-style-type: none;
+}
+.search-btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #000;
+  outline: none;
+  padding: 0 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 90%;
+  background: #fff;
+  padding: 20px;
+  margin-top: 3rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
