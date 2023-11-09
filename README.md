@@ -46,7 +46,8 @@ This repository contains my assignments and projects that I have done during the
 - [x] [Assignment 7](/Day-4/assignments/basic-calculator/index.html)
 - [x] [Home Work 1](/Day-4/home/slider-example/index.html)
 - [x] Create a Home Page to show all assignments and projects
-
+- [x] [Assignment 8](/Day-5/assignments/assignment1.html)
+- [x] [Assignment 9](/Day-5/assignments/assignment2.html)
 
 
 
