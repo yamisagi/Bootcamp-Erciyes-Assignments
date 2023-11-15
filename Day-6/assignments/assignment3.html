@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/assignment3.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.1/axios.min.js"
+      integrity="sha512-m9S8W3a9hhBHPFAbEIaG7J9P92dzcAWwM42VvJp5n1/M599ldK6Z2st2SfJGsX0QR4LfCVr681vyU5vW8d218w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="company-form">
+        <div>
+          <input
+            id="company-name"
+            type="text"
+            placeholder="Company Name"
+            name="company-name"
+          />
+          <input
+            id="contact-name"
+            type="text"
+            placeholder="Contact Name"
+            name="contact-name"
+          />
+          <input
+            id="contact-title"
+            type="text"
+            placeholder="Contact Title"
+            name="contact-title"
+          />
+          <div>
+            <button type="submit">Add</button>
+          </div>
+        </div>
+      </form>
+
+      <form id="delete-form">
+        <div>
+          <input
+            id="delete-id"
+            type="text"
+            placeholder="ID Required You Can Get It From Table"
+            name="delete-id"
+            required
+          />
+          <button id="btn-delete" type="submit">Delete</button>
+        </div>
+      </form>
+    </div>
+
+    <table id="data-table"></table>
+    <script src="assignment3.js"></script>
+  </body>
+</html>
