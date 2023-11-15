@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.1/axios.min.js"
+      integrity="sha512-m9S8W3a9hhBHPFAbEIaG7J9P92dzcAWwM42VvJp5n1/M599ldK6Z2st2SfJGsX0QR4LfCVr681vyU5vW8d218w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="styles/assignment2.css" />
+  </head>
+  <body>
+    <form id="productForm">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" />
+      </div>
+
+      <div>
+        <label for="unitPrice">Unit Price</label>
+        <input id="unitPrice" type="text" name="unitPrice" />
+      </div>
+
+      <div>
+        <label for="unitsInStock">Units In Stock</label>
+        <input id="unitsInStock" type="text" name="unitsInStock" />
+      </div>
+
+      <div>
+        <button type="button" onclick="submitForm()">ADD</button>
+      </div>
+    </form>
+
+    <div>
+      <ul id="productList"></ul>
+    </div>
+    <script src="assignment2.js"></script>
+  </body>
+</html>
